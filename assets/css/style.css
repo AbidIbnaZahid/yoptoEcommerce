@@ -396,4 +396,8 @@ p{
 .custom h1{
     margin-top: 0px !important;
 }
+.migrationSection span{
+        font-weight: 700;
+}
+
 
