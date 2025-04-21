@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #313438;
+}
+p{
+    font-family: 'Montserrat' !important;
+}
+.btn a{
+    font-family: 'Montserrat' !important;
+}
+.banner{
+    background-color: #2532b7;
+    height: 650px;
+}
+.banner .col{
+    margin: 0 auto;
+}
+.page-weight{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .heading{
+    text-align: center;
+    color: #fff !important;
+    padding-top: 120px;
+}
+.banner .icon{
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+.banner h6{
+    font-size: 15px;
+    color: #fff !important;
+    font-family: 'Montserrat';
+}
+.banner img{
+    max-width: 12%;
+}
+.banner p{
+    font-size: 19px;
+    width: 654px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.banner h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff !important;
+    font-family: "Playfair Display", serif;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.banner .btn{}
+.banner .btn a, .pricing a, .migrationSection a{
+    color: #000;
+    text-decoration: none;
+    margin: 25px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+    padding: 9px 25px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 26px;
+    transition-duration: .4s;
+}
+.btnReverse, .migrationSection .btnReverse{
+    background-color: #ffffff00 !important;
+    color: #fff !important;
+}
+.migrationSection a:hover,.banner .btn a:hover{
+    background-color: #ffffff00;
+    color: #fff;
+}
+.migrationSection .btnReverse:hover,.btnReverse:hover{
+     background-color: #fff !important;
+      color: #000 !important;
+}
+.migrationSection .btn{
+    margin-bottom: 55px;
+}
+.logoSection{margin: 130px 0;}
+.logoSection .row .col{
+    display: flex;
+    gap: 70px;
+}
+.logoDriver{
+    height: auto;
+    width: 1px;
+    background: #313438;
+}
+.logoSection .row .headingLogo{
+    width: 20%;
+}
+.logoSection .row .headingLogo h5{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.logoSection .row .headingLogo p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #b5b5b5;
+}
+.logoSection .logoS{
+    width: 80%;
+}
+.logoSection .logoS img{
+    max-width: 100%;
+}
+h1{
+      font-family: "Montserrat", sans-serif;
+      font-size: 31px;
+      font-weight: 500;
+      padding-bottom: 10px;
+}
+.bannerSection{
+    margin-top: 90px;
+}
+.bannerSection .row{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    transition-duration: .4s;
+}
+.card2{
+    margin-top: 50px;
+    transition-duration: .4s;
+}
+img{
+    max-width: 100%;
+}
+.bannerSection .head{
+    text-align: center;
+    margin: 40px 0px;
+}
+.bannerSection h1{
+    font-size: 31px;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+}
+.bannerSection .head h1{
+    font-size: 45px;
+}
+.bannerSection .head p{
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+.bannerSection .col{
+    width: 33.33%;
+    padding: 30px;
+    border-radius: 25px;
+    transition: .4s;
+}
+.bannerSection .col-2{
+    width: 62%;
+    transition: .4s;
+}
+.bcolor{
+    background-color: #cbc5fb;
+    transition-duration: .4s;
+}
+.bannerSection a:hover,.bannerSection .col:hover{
+    box-shadow: 0px 2px 13px #9088c9;
+}
+.card a:hover,.bannerSection .card:hover{
+    box-shadow: 0px 2px 13px #e59579;
+}
+.card2 a:hover,.bannerSection .card2:hover{
+    box-shadow: 0px 2px 13px #7d9fcb;
+}
+
+.bg2{
+    background-color: #fad2c4;
+    padding: 30px;
+    border-radius: 25px;
+}
+.bg3{
+     background-color: #c3ddff;   
+    padding: 30px;
+    border-radius: 25px;
+}
+.bannerSection .heading{
+    width: 90%;
+    padding-bottom: 40px;
+}
+.down{
+    margin-top: 139px;
+}
+p{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.bannerSection a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+    transition: .4s;
+    margin-top: 10px;
+}
+
+.ratingSection{
+    background-color: #2c4c50;
+}
+.ratingSection .page-weight{
+    width: 1100px;
+}
+.ratingSection .row .col{
+    margin-top: 64px;
+}
+.ratingSection .row h1{
+    font-size: 70px;
+    color: #cbf7dc;
+    font-weight: 600;
+}
+.ratingSection .row p{
+    width: 61%;
+    color: #cbf7dc;
+    font-weight: 600;
+}
+.devider{height: 2px;width: 100%;background: #cbf7dc;margin: 40px 0;}
+.pricing .coll-1{width: 60% !important;}
+.pricing .coll{width: 40% !important;}
+.pricing .coll-1 h2{
+    font-size: 45px;
+    color: #fff;
+    padding-bottom: 70px;
+    font-weight: 500;
+}
+.pricing  a{
+    margin: 0px !important;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.btnCol{
+    text-align: end;
+    margin-top: 5px;
+}
+.pricing  a:hover{
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+.migrationSection .page-weight{
+    background-color: #2c4c50;
+    border-radius: 20px;
+    width: 1600px;
+}
+.migrationSection{
+    justify-content: center;
+    text-align: center;
+    margin-top: 110px;
+}
+.migrationSection h1{
+    padding-top: 80px;
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Playfair Display';
+}
+.migrationSection p{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.4;
+}
+.migrationSection .col{
+    margin: 0 auto;
+}
+.coun{
+    display: flex;
+}
+
+.sliderSection{
+    margin-top: 100px;
+}
+.sliderSection .col{
+    display: flex;
+}
+.sliderSection h2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.sliderSection h6{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+.sliderSection .simg{
+    width: 132%;
+}
+.sliderSection .page-weight,.debugSction .page-weight{
+    width: 1600px;
+}
+.sliderSection img{
+    margin-bottom: -5px;
+    border-radius: 24px 0 0 0;
+}
+.sliderSection h1{
+    background-color: #f68b6e;
+    color: #fff;
+    padding: 22px 40px;
+    font-size: 48px;
+    border-radius: 0 0 0 24px;
+}
+.sliderSection h1 span{
+    font-size: 16px;
+}
+.col-content{
+    background-color: #fad2c4;
+    padding: 30px 50px;
+    border-radius: 0 24px 24px 0;
+}
+.col-content img{
+    width: 53%;
+    margin-bottom: 30px;
+}
+.col-content  p{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display';
+}
+.col22{
+    width: 66%;
+}
+.col-content  .name p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.gap{width: 15%;}
+.gap img{
+    border-radius: 24px;
+}
+.debugSction{
+    margin-top: 100px;
+}
+.debugSction h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    font-family: "Playfair Display", serif;
+}
+.debugSction .item{width: 24%;}
+.debugSction .item img{
+    max-width: 13% !important;
+}
+.debugSction h3{
+    font-size: 29px;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+    margin: 10px 0;
+    max-width: 320px;
+}
+.rev{
+    margin-bottom: -8px;
+}
+.debugSction p{
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.fimg{
+    margin-bottom: 6px;
+}
+.custom{
+    background-color: #2532b7;
+}
+.custom h1{
+    margin-top: 0px !important;
+}
+
